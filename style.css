@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg1: #3e2d21;
+  --bg2: #573f2e;
+  --bg3: #6a4021;
+  --bg4: #faeded;
+}
+
+body {
+  height: 100vh;
+}
+
+header,
+section {
+  display: flex;
+}
+
+header {
+  height: 30%;
+}
+
+section {
+  height: 70%;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+header > .left {
+  background-color: var(--bg2);
+}
+
+header > .right {
+  background-color: var(--bg1);
+}
+
+section > .left {
+  background-color: var(--bg4);
+}
+
+.top-content {
+  height: 70%;
+  background-color: var(--bg3);
+}
+
+.bottom-content {
+  height: 30%;
+  background-color: var(--bg1);
+}
